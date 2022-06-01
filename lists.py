@@ -45,3 +45,6 @@ print("updated List: ", myList)
 myList.sort()
 myList.reverse()
 print("\nDescending order of list: ", myList)
+
+print("\nSlicing list inde 2 to 6 ", myList[2:6])
+
