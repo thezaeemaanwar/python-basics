@@ -12,21 +12,21 @@ myDict = {
 }
 print(myDict)
 
-print("\nLength of dictionary: ",len(myDict))
+print("\nLength of dictionary: ", len(myDict))
 
 print("\nName attribute in dictionary: ", myDict["name"])
 
 print("\nAll keys of dictionary: ", myDict.keys())
 
-myDict.update({"name":"Ehmad Saeed"})
+myDict.update({"name": "Ehmad Saeed"})
 print("\nUpdate Dict Values: ", myDict)
 
-myDict["gender"]= "male"
+myDict["gender"] = "male"
 print("\nAdding Item in dict: ", myDict)
 
 print("\nLoop over whole dict: \n---------------------")
 for el in myDict:
-    print(el,": ", myDict[el])
+    print(el, ": ", myDict[el])
 
 print("\nValues only: \n------------")
 for el in myDict.values():
@@ -48,4 +48,3 @@ print("\nRemove last inseted item: ", myDict)
 
 myDict.clear()
 print("\nClear whole dictionary: ", myDict)
-
