@@ -6,5 +6,6 @@ print("E = ", evenNumbers)
 
 
 print("\nPrime Numbers from set: ")
-primeNumbers = set(filter(lambda n: n%2 and n%3 and n%5 and n%7, mySet))
-print("P = ",primeNumbers)
+primeNumbers = set(filter(lambda n: n % 2 and n %
+                   3 and n % 5 and n % 7, mySet))
+print("P = ", primeNumbers)
